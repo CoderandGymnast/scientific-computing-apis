@@ -16,4 +16,11 @@
 - Đối với điểm kỳ dị, khi sử dụng eps = |c - a| thì thuật toán sẽ cho rằng điểm kỳ dị là nghiệm. Khi sử dụng eps = |f(b)|, thuật toán sẽ không bao giờ dừng lại. 
 - Điểm mạnh: Nếu khoảng phân ly nghiệm không chính xác. Thuật toán vẫn có thể tự điều chỉnh. 
 
-CHÚ Ý: Đối với cả chia đôi, dây cung. Nên sử dụng eps=|f(b)| (Các API 2).
+### II.3. Phương pháp Newton: 
+- Có nét tương đồng với Gradient Descent. 
+- Nhược điểm là cần tính đạo hàm. 
+- Với "chất lượng nghiệm" tương tự như "Chia đôi" & "Dây cung" nhưng số loops giảm đi rất nhiều. 
+
+CHÚ Ý: 
+ - Đối với cả chia đôi, dây cung. Nên sử dụng eps=|f(b)| (Các API 2).
+ - Phương pháp dây cung thường tốn nhiều vòng lặp hơn so với phương pháp chia đôi. 
