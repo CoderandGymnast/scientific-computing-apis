@@ -20,12 +20,12 @@
 % disp("Solution II: |f(x)| error: ");
 % [x,eps]=api_12(f,0,2,0.01)
 
-%% 4: 
-% f=@(x)1/(x-e^-x);
-% disp("Solution I: |c-a| error. ");
-% [x,eps]=api_21(f,0,1,0.00001)
-% disp("Solution II: |f(x)| error: ");
-% [x,eps]=api_22(f,0,1,0.00001)
+%% 4: Singularity.
+f=@(x)1/(x-e^-x);
+disp("Solution I: |c-a| error. ");
+[x,eps]=api_21(f,0,1,0.00001)
+disp("Solution II: |f(x)| error: ");
+[x,eps]=api_22(f,0,1,0.00001)
 
 %% 5: 
 % f=@(x)x^3+5*x^2-10;
