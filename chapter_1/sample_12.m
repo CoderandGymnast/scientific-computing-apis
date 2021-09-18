@@ -8,3 +8,8 @@ trace(A)
 
 % Number of linearly independent rows or columns.
 rank(A)
+
+A=[1 2; 
+2 4];
+det(A)
+rank(A)

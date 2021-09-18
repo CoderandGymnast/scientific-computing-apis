@@ -8,8 +8,8 @@
 
 %% 2: 
 f=@(x)x^4+2*x^3-2;
-disp("Solution I: |c-a| error. ");
-[x,eps]=api_11(f,0,1,0.001)
+%disp("Solution I: |c-a| error. ");
+%[x,eps]=api_11(f,0,1,0.001)
 disp("Solution II: |f(x)| error: ");
 [x,eps]=api_12(f,0,1,0.1)
 

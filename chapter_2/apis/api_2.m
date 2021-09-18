@@ -1,4 +1,4 @@
-function v = polyinterp(x, y, u)
+function v = api_2(x, y, u)
     n = length(x);
     v = zeros(size(u));
 

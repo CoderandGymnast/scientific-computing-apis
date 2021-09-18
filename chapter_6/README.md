@@ -16,3 +16,7 @@ y'(t)=f(y,t); y(t0)=y0;
 
 ### II.2. Dạng BT: 
 - Cho f(y,t), y(t0). Tìm giá trị của y tại một thời điểm nào đó với h cho trước. 
+
+## II. APIs: 
+1: Chuỗi thời gian (Bỏ qua). 
+2: Tìm một điểm bất kỳ.

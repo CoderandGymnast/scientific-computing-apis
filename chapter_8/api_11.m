@@ -29,6 +29,7 @@ function [solution] = api_11(c, A, b, base)
 
         end
 
+
         if (!max(deltas))
             break;
         end

@@ -53,3 +53,6 @@
 CHÚ Ý: 
  - Đối với cả chia đôi, dây cung. Nên sử dụng eps=|f(b)| (Các API 2).
  - Phương pháp dây cung thường tốn nhiều vòng lặp hơn so với phương pháp chia đôi. 
+- Trong đề phải chỉ sử dụng sai số của f(x). 
+
+Tôi xin trả lời như sau: Khi giải  PTPT, có 2 loại điều kiện dừng (sai số) là dựa trên sai số giữa nghiệm gần đúng và nghiệm chính xác (sẽ nhỏ hơn khoảng phân ly nghiệm nên mình dùng chính khoảng PLN) hoặc dựa trên (f(b) - f(nghiệm chính xác)) =(f(b)-0) = f(b). Các đáp án trong ngân hàng đề tôi đều dùng f(b).
