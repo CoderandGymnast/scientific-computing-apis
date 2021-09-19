@@ -37,24 +37,24 @@ format long;
 
 %% 5: 
 % 18.5
-f=@(x)x^4+2*x^3+1
+f=@(x)x^4+2*x^3+1;
 a=1;
 b=2;
 
 %disp("F: ")
 %F(b)-F(a)
-disp("Trapezoidal rule (HT, n=1): ")
-api_41(f,a,b)
-disp("(Recommended)Expand Trapezoidal rule (HTMR, n=1,2,3...):")
-api_51(f,a,b,1)
-api_51(f,a,b,2)
-api_51(f,a,b,3)
-api_51(f,a,b,1000)
-disp("Simpson 1/3 rule (n=2):")
-api_61(f,a,b)
-disp("Simpson 3/8 rule (n=3):")
-api_71(f,a,b)
+% disp("Trapezoidal rule (HT, n=1): ")
+% api_41(f,a,b)
+% disp("(Recommended)Expand Trapezoidal rule (HTMR, n=1,2,3...):")
+%api_51(f,a,b,1)
+% api_51(f,a,b,3)
+%api_51(f,a,b,4)
+%api_51(f,a,b,1000)
+% disp("Simpson 1/3 rule (n=2):")
+% api_61(f,a,b)
+% disp("Simpson 3/8 rule (n=3):")
+% api_71(f,a,b)
 disp("(Recommended) Expand 1/3 rule: ")
-api_81(f,a,b,4)
-api_81(f,a,b,1000)
+api_81(f,a,b,3)
+%api_81(f,a,b,1000)
 

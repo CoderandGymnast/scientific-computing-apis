@@ -11,7 +11,11 @@ f=@(x)x^4+2*x^3-2;
 %disp("Solution I: |c-a| error. ");
 %[x,eps]=api_11(f,0,1,0.001)
 disp("Solution II: |f(x)| error: ");
-[x,eps]=api_12(f,0,1,0.1)
+ss=0.1
+kpln=[0,1]
+
+%---
+[x,eps]=api_12(f,kpln(1),kpln(2),ss)
 
 %% 3: 
 % f=@(x)e^x-2;
