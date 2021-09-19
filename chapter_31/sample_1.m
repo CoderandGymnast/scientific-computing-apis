@@ -1,3 +1,4 @@
+% Noi suy tuyen tinh (Linear interpolation): 
 p0 = [1 2];
 p1 = [5 7];
 

@@ -1,3 +1,5 @@
+%[NOTE]: Giai HTPTT co 1 nghiem duy nhat.
+
 % Left devision: 
 % A*x=b
 A=[3 2; 1 -1];

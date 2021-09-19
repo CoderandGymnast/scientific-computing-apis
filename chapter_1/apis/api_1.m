@@ -1,3 +1,4 @@
+% Giai HPTT co dang ma tran tam gia tren.
 function [x] = api_1(U, b, n)
 	x = zeros(n, 1);
     for k = n:-1:1
